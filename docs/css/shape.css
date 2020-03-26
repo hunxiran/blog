@@ -1,0 +1,23 @@
+.triangle1 {
+    position: relative;
+    background: #ffffff;
+    padding: 15px;
+    border: 1px solid #4b47c7;
+    margin-top: 20px;
+  }
+
+  .triangle1:before,
+  .triangle1:after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 19px;
+    border: 11px solid transparent;
+    border-bottom-color: #4b47c7;
+  }
+
+  .triangle1:after {
+    left: 20px;
+    border: 10px solid transparent;
+    border-bottom-color: #ffffff;
+  }

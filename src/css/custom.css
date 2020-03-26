@@ -1,0 +1,71 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary-dark: rgb(33, 175, 144);
+  --ifm-color-primary-darker: rgb(31, 165, 136);
+  --ifm-color-primary-darkest: rgb(26, 136, 112);
+  --ifm-color-primary-light: rgb(70, 203, 174);
+  --ifm-color-primary-lighter: rgb(102, 212, 189);
+  --ifm-color-primary-lightest: rgb(146, 224, 208);
+  --ifm-code-font-size: 95%;
+}
+
+.docusaurus-highlight-code-line {
+  background-color: rgb(72, 77, 91);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+
+details{
+  cursor: pointer;
+}
+
+summary {
+  outline: none;
+  font-weight: bold;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/* summary::before {
+  content: "🖕";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+} */
+
+/* background: no-repeat center/100%
+    url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABTUlEQVQ4T82Tr0sEQRTHv28te0mb0WI3ecmgNkENmlQsBpsHws3MccUVy+7s2ASLWURQ4fzVDAaDUf8Am4IWq3DMV+a4lfPkQLHcwJTHm8+8z5s3gn8u+ed59CHAOTfhvR8DsABguq14A+DUe/9Yq9VuO7W/KVhrlwCkAI5Inhhj7kNylmVlEVkEEPau1nq/gHwBrLU7AFZFpKyUes2yLAEw2068MMYkSZIMlUqlSxF5ajabm/V6/a0FsNYek3w3xqwXZGstO0vVWndethYu01pPFQDGcRxXKpWPXwJCZecB2gI458a993dRFM1Xq9XrEMvzfItk0ADJ7aDQjjdIDovIXFDtbuIZgAGSB8aYRqdCmqYzURRdicieUmrjRxOLQJ7ny977SRFZAfBCkiIyCuBZRJRS6rDnM3aPtXNuhOSgUuqh18j34Sj/9Xd+AvRYiBEYoDfpAAAAAElFTkSuQmCC"); */
+
+/* summary::-webkit-details-marker {
+  display: none;
+} */
+
+.custom-light {
+  background: radial-gradient(circle at 30% 50%, #f2f8ff, #e4edff);
+  color: #4b47c7;
+  overflow-wrap: break-word;
+  border-top-right-radius: 8vh;
+  border-bottom-right-radius: 8vh;
+  padding: 0em 1em 0em 0em;
+  display: inline-block;
+}
+
+.custom-light:before {
+  content: "";
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+  vertical-align: middle;
+  background: no-repeat center/100%
+    url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAENklEQVRYR9VXfUwbZRh/3rtre3el5WO2QD9SAnR8RMMipImBGKZd/NuZ+J8xasJc4jInw5BtCpgMCE4Xs+yfOUmMiZ+ZJpjFuE0XHXFTwWiGcVAmFgq0tNC1pb32rndnelo9yrW9scTG+/N5n9/z/J6P93mfQ1DiD5XYP/yPCQyu0AYAGmIAMYGPw2k7s5Nsqs9Az5SGqqipJnCgBQS0KPC43CHicR4HMc4hxDAME4QzzpQaQqoIVB3yGFlaaxcQkKqMYhiH2JR/81TjWjH9ogSo40tWxAs1ckPiuvewnhDbEixXL4qAKB2xwKThpqg3ncfIskhWlwAsEh21zxciUZAA3e9tl4OTgYUegUv1PNxcxR7Ya9V2NVVCJU3AcjgFP3lj0cPv3RL1evpckKj5SI5LjDqm85HIS8DYv9SYBqE8C0xHQw42GrqwdrYbTEZt3qD2jU5HvvGmX9JU1P6SVRJxzM+ctC8rgRQJlB2dNwuExr4lCt+tqclXXNC5u0ISf+e5A30feqRGe/vZFl2rtUySh2Ic1LxwVdBZml1yPBlnPRtnnNFcEtsJHPLo9AaySRQEjVy5llv8av5Ul5SRYJSFvcPTC54o8Wqa5w1kOv7GxaMPUt0tlRIEPXUJaFtzhxyPiZDcDAfn4FwHt+X25DKiXvbZEMZXy+VGfuOBJ+6nTsplX8yEJ/y45XxGZmJXDj7TZXpu4PEGSeWxsWn+yjzbS+6yTm5pXgEPMGM2X0ECxr4lZxoXjFuab2O1HcS0EQD9e/cRHiaraqXm0t75460X91k7B/b/RaDuyDXWzxv24/oqv9wOjvBYbMQ2V5CAvs+3R8zMFJVfct3nJvnkQPydR6gMZM6fgLZj1zms2vnQtnpjOB8ftv2cn8CRJYrWCa0qfQMX9u8pQ4mRH4dcpgYzLcHajl9PzgTSp0mT44KSnQSp+Q0GLYns2ZYmNPSu3MdrOIdaAhD0XLp6rKPcVV8uZWzo09vw2sTix2Rtw1g+Gzip8cYGLaF7JsD4Zm8cdNvYs0+3SKF3D08Fvp2N3KQszv5CARQkAHdRAj4wdyM57iYyzkYmFpg3v/T9kDA6eotlr2AJMmA1TchvRswoHrjIjLulElYc+DqVMtjcmIYs+CSjok0IAErXMDeq5MZq+6P1mtGs/PJMqDJ38ChlQtU1VBpE2wis+9y5MnKX7Uqx9ItqBhHkGcW5xgUuSaWCSycQof2VNDveL+Zc9SjOGFJ6jHId2Pjl8WsnOupuB5mNzqHvrZS1advgkWPUP0Z/o3KfY7mxzF7wwfOt3U+6TLszcqXHR65/189xFpy7kMiNCmuez2df70LvTq4GBj77fZGqaRzKV4YdLSRZY0orWeZMZDldct3bh3BiljTXfaLk/J5XsqzRki6l/0RWyrVcsbb/+Y9JsYu+w/Oi/wU7tKsaVnICfwIiCNswNmSBxwAAAABJRU5ErkJggg==");
+}
