@@ -1,7 +1,7 @@
 module.exports = {
   title: 'Forward Alone',
   tagline: 'Stay Hungry Stay Foolish',
-  url: 'https://github.com/hunxiran/blog',
+  url: 'https://github.com/hunxiran',
   baseUrl: '/blog/',
   favicon: 'img/favicon.ico',
   organizationName: 'hunxiran', // Usually your GitHub org/user name.
