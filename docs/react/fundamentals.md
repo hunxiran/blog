@@ -24,7 +24,8 @@ sidebar_label: Fundamentals
 - 因为 `Props` 和 `state` 的更新可能是异步的，函数可以确保获取到最新的值；
 
 
-### React 和 HTML 事件处理的区别
+### Events
+#### React 事件与原生事件的区别
 - HTML 的事件名称采用小写表示，而 React 采用驼峰命名；
 - HTML 可以在事件中返回 `false` 阻止默认行为，而 React 要调用 `preventDefault()` ；
 - 

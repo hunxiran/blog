@@ -24,7 +24,8 @@ module.exports = {
       'javascript/callback',
       'javascript/promise',
       'javascript/await_async',
-      'javascript/chanllenge'
+      'javascript/chanllenge',
+      'javascript/regexp'
     ],
     React: [
       'react/fundamentals',

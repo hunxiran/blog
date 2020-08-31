@@ -13,8 +13,8 @@ module.exports = {
         alt: 'Forward Alone Logo',
         src: 'img/logo.svg',
       },
-      links: [
-        { to: 'docs/html/Basics', label: 'Interview', position: 'right' },
+      items: [
+        { to: 'docs/html/Basics', label: '基础', position: 'right' },
         { to: 'blog', label: 'Blog', position: 'right' },
         {
           href: 'https://github.com/hunxiran/blog.git',
