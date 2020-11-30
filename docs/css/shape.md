@@ -1,7 +1,7 @@
 ---
 id: shapes
-title: CSS Shapes
-sidebar_label: shapes
+title: 基本图形实现
+sidebar_label: 基本图形实现
 ---
 
 import './shape.css'

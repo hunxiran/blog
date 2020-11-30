@@ -1,7 +1,7 @@
 ---
-id: regexp
+id: RegExp
 title: Regular Expression Guide
-sidebar_label: Regular Expression
+sidebar_label: 正则表达式
 ---
 
 ### 1️⃣ **Syntax**

@@ -14,7 +14,7 @@ module.exports = {
         src: 'img/logo.svg',
       },
       items: [
-        { to: 'docs/html/Basics', label: '基础', position: 'right' },
+        { to: 'docs/html/Basics', label: '知识体系', position: 'right' },
         { to: 'blog', label: 'Blog', position: 'right' },
         {
           href: 'https://github.com/hunxiran/blog.git',

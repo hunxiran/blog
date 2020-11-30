@@ -1,5 +1,5 @@
 ---
-id: debounce_and_throttle
+slug: debounce_and_throttle
 title: Dive into debounce and throttle function
 author: hunxiran
 author_url: https://github.com/hunxiran

@@ -1,7 +1,7 @@
 ---
 id: Basics
-title: HTML Basic Concepts
-sidebar_label: Key Concepts
+title: 核心概念
+sidebar_label: 核心概念
 ---
 
 

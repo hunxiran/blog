@@ -1,7 +1,7 @@
 ---
 id: fundamentals
 title: React Fundamentals
-sidebar_label: Fundamentals
+sidebar_label: 基本语法
 ---
 
 ### Fetch Data

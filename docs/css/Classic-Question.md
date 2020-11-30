@@ -1,7 +1,7 @@
 ---
-id: temp
-title: Temp Collection
-sidebar_label: Temp
+id: Classic-Question
+title: 经典问题
+sidebar_label: 经典问题汇总
 ---
 
 ## Concepts

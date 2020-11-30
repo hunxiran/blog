@@ -1,7 +1,7 @@
 ---
 id: principal
-title: React Principle analysis
-sidebar_label: Principals
+title: React 哲学
+sidebar_label: 核心原理
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-id: jsAll
+id: All
 title: JS Questions
 sidebar_label: ALL
 ---

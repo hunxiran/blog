@@ -1,7 +1,7 @@
 ---
 id: total
-title: Algorithms Total
-sidebar_label: Total
+title: 大 O 表示法
+sidebar_label: Big O
 ---
 
 ### What is Big O Notation?
